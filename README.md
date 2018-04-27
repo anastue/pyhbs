@@ -1,5 +1,7 @@
 # pyhbs - Handlebars.js for Python 3
 
+[![Build Status](https://travis-ci.org/anastue/pyhbs.svg?branch=master)](https://travis-ci.org/wbond/pybars3)
+
 Pyhbs : Handlebars template compiler for Python 3.
 It is a fork of the pybars project.
 * Make it simple.
