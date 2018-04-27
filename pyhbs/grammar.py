@@ -1,4 +1,3 @@
-# -*- test-case-name: pymeta.test.test_pymeta -*-
 """
 Public interface to OMeta, as well as the grammars used to compile grammar
 definitions.

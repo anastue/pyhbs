@@ -1,17 +1,16 @@
-# -*- test-case-name: pymeta.test.test_grammar -*-
 """
 The definition of PyMeta's language is itself a PyMeta grammar, but something
 has to be able to read that. Most of the code in this module is generated from
 that grammar (in future versions, it will hopefully all be generated).
 """
 import string
-from pyhbs.pymeta.runtime import OMetaBase, ParseError, EOFError, expected
+from pyhbs.runtime import OMetaBase, ParseError, EOFError, expected
 
 
 class BootOMetaGrammar(OMetaBase):
     """
-    The bootstrap grammar, generated from L{pymeta.grammar.OMetaGrammar} via
-    L{pymeta.builder.PythonBuilder}.
+    The bootstrap grammar, generated from L{grammar.OMetaGrammar} via
+    L{builder.PythonBuilder}.
     """
     globals = globals()
 

@@ -1,7 +1,7 @@
 from functools import partial
 import re
 
-from .pymeta.grammar import OMeta
+from .grammar import OMeta
 
 import collections
 

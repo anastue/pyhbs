@@ -1,4 +1,3 @@
-# -*- test-case-name: pymeta.test.test_runtime -*-
 """
 Code needed to run a grammar after it has been compiled.
 """
