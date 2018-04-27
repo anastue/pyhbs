@@ -14,3 +14,4 @@ python:
 
 script:
   - coverage run tests.py
+
