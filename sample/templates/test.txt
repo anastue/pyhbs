@@ -1,0 +1,9 @@
+{{#if name}}
+    Hi, I am : {{name}}
+{{/if}}
+{{#each data}}
+    {{number}} : {{name}}
+{{/each}}
+{{#with obj}}
+    VALUE : {{foo}}
+{{/with}}
